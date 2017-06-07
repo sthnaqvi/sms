@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Send SMS</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row" style="margin-top:60px">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h2 class="form">Send Message</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="sender">Sender Name</label>
+							<input type="text" class="form-control" id="sender" value="Okhlee">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<textarea id="number" class="form-control" placeholder="Enter Phone Numbers separated by comma ex 918929394950,917876564578" required></textarea>
+				</div>
+				<div class="form-group">
+					<textarea id="message" class="form-control" placeholder="Enter Message Here" required></textarea>
+				</div>					
+				<button id="sendsms" class="btn btn-lg btn-primary btn-block">Send Message</button>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div> <!-- /container -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="config.js"></script>
+</body>
+</html>

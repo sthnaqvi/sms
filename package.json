@@ -1,0 +1,19 @@
+{
+  "name": "sms",
+  "version": "0.0.1",
+  "description": "sms send",
+  "scripts": {
+    "start": "node smsServer.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "cors": "^2.8.1",
+    "express": "^4.10.2",
+    "jsonwebtoken": "^7.3.0",
+    "moment": "^2.18.1",
+    "mongoose": "~4.8.1",
+    "request": "^2.81.0"
+  },
+  "author": "Sayed Tauseef Naqvi <tauseef.naqvi786@gmail.com> (https://github.com/sthnaqvi)",
+  "license": "ISC"
+}
